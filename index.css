@@ -7,29 +7,6 @@ h1 {
   height: 15vh;
 }
 
-.boton {
-  position: relative;
-  left: 43%;
-  top: 20%;
-  margin: 10px;
-  margin-top: -20px;
-  padding: 15px 15px;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
-  box-shadow: 0 0 20px #eee;
-  border-radius: 10px;
-  background-image: linear-gradient(
-    to right,
-    #cc95c0 0%,
-    #dbd4b4 51%,
-    #cc95c0 100%
-  );
-  z-index: 10;
-}
-
 .boton:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
@@ -38,20 +15,21 @@ h1 {
 
 .ingresos {
   flex-wrap: wrap;
-  margin-left: 8vh;
+  margin-left: 10vh;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 30vh;
+  height: 15vh;
   width: 100%;
 }
 
 #NuevoIngreso {
   display: flex;
   flex-wrap: wrap;
+  justify-content: flex-start;
   width: 150vh;
-  margin-left: 27vh;
+  margin-left: 20vh;
 }
 
 .contaninerinputs {
@@ -59,8 +37,7 @@ h1 {
   height: 5vh;
   display: flex;
   justify-content: center;
-  font-size: 2vh;
-  margin-left: 20vh;
+  margin-left: 0vh;
 }
 
 .spanes {
@@ -68,6 +45,8 @@ h1 {
 }
 
 span {
+  position: relative;
+  right: 140px;
   margin-left: 18vh;
   font-size: 3vh;
   text-align: center;
@@ -114,6 +93,7 @@ p {
 }
 
 input {
+  width: 15vh;
   background-image: linear-gradient(
     to right,
     #ece9e6 0%,
